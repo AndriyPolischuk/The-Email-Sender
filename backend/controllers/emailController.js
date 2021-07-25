@@ -19,7 +19,7 @@ exports.sendEmails = async (req, res) => {
   form.parse(req, async (err, fields, files) => {
     if (err) {
       return res.status(400).json({
-        error: 'Image could not be uploaded',
+        error: 'File could not be uploaded',
       });
     }
     const fileExtention = files.file.path.split('.')[1];

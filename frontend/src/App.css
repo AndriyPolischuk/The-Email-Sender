@@ -32,7 +32,7 @@ body {
   transform: translate(-50%) translateY(-50%);
 }
 .nav {
-  background-color: #000033;
+  background-color: rgba(11, 25, 70, 0.7);
   width: 25%;
   height: 100%;
   position: fixed;
